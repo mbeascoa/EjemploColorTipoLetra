@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/lblColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiColor" />
+
+    <RadioGroup
+        android:id="@+id/rdgGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp">
+
+        <RadioButton
+            android:id="@+id/rdbRojo"
+            android:layout_width="125dp"
+            android:layout_height="37dp"
+            android:text="@string/etiRojo" />
+
+        <RadioButton
+            android:id="@+id/rdbAzul"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/etiAzul" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lblTipo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/etiTipo" />
+
+    <RadioGroup
+        android:id="@+id/rdgGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="123dp">
+
+        <RadioButton
+            android:id="@+id/rdbMayuscula"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:text="@string/etiMayuscula" />
+
+        <RadioButton
+            android:id="@+id/rdbMinuscula"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/etiMinuscula" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarColorTipo"
+        android:text="@string/etiVER" />
+
+    <EditText
+        android:id="@+id/txtMensaje1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/etiMensaje" />
+</LinearLayout>

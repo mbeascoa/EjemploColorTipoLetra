@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploColorTipoLetra</string>
+    <string name="etiColor">COLORe</string>
+    <string name="etiTipo">TYPEFRANCES</string>
+    <string name="etiRojo">ROUGE</string>
+    <string name="etiAzul">AZULFRENCH</string>
+    <string name="etiMayuscula">MAYUSFRENCH</string>
+    <string name="etiMinuscula">MINUSCULASFRENCH</string>
+    <string name="etiVER">OLALA</string>
+    <string name="etiMensaje">MensajeFrench</string>
+</resources>

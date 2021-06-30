@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploColorTipoLetra</string>
+    <string name="etiColor">COLOR</string>
+    <string name="etiTipo">TYPE</string>
+    <string name="etiRojo">RED</string>
+    <string name="etiAzul">BLUE</string>
+    <string name="etiMayuscula">UPPERCASE</string>
+    <string name="etiMinuscula">LOWERCASE</string>
+    <string name="etiVER">SHOW</string>
+    <string name="etiMensaje">Messaje</string>
+</resources>
